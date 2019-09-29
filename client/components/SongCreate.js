@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { Fragment, Component } from "react";
 
 class SongCreate extends Component {
@@ -26,5 +27,17 @@ class SongCreate extends Component {
     );
   }
 }
+=======
+import React, { Fragment } from "react";
+
+const SongCreate = () => {
+  return (
+    <Fragment>
+      <h3>create new song</h3>
+      <form></form>
+    </Fragment>
+  );
+};
+>>>>>>> ec03916cd137ce32a7d14ad99741af4b938f218a
 
 export default SongCreate;
